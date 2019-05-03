@@ -1,6 +1,6 @@
 {
   "name": "LottieLoadingView",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "使用Lottie做的加载动画",
   "description": "使用Lottie可以极大地简化动画的制作，同时保证多端高度统一以及减小App包的大小",
   "homepage": "https://github.com/onexf/LottieLoadingView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/onexf/LottieLoadingView.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"

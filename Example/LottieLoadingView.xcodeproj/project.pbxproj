@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		02B386D2227C694500E02FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D1227C694500E02FDB /* Images.xcassets */; };
 		02B386D4227C698A00E02FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D3227C698A00E02FDB /* LaunchScreen.storyboard */; };
-		02B386D7227C69E800E02FDB /* 935-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D5227C69E800E02FDB /* 935-loading.json */; };
-		02B386D8227C69E800E02FDB /* 9squares-AlBoardman.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D6227C69E800E02FDB /* 9squares-AlBoardman.json */; };
+		02B386D7227C69E800E02FDB /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D5227C69E800E02FDB /* A.json */; };
+		02B386D8227C69E800E02FDB /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D6227C69E800E02FDB /* B.json */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,8 +32,8 @@
 /* Begin PBXFileReference section */
 		02B386D1227C694500E02FDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LottieLoadingView_Example/Images.xcassets; sourceTree = "<group>"; };
 		02B386D3227C698A00E02FDB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		02B386D5227C69E800E02FDB /* 935-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "935-loading.json"; sourceTree = "<group>"; };
-		02B386D6227C69E800E02FDB /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
+		02B386D5227C69E800E02FDB /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		02B386D6227C69E800E02FDB /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
 		23C525EB447FDCEA1B7CF087 /* Pods_LottieLoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieLoadingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9CEB292E5F5E8C5AB73485 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2F512C815C91832E8660C541 /* Pods-LottieLoadingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieLoadingView_Tests.release.xcconfig"; path = "Target Support Files/Pods-LottieLoadingView_Tests/Pods-LottieLoadingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 		02B386D9227C6A6F00E02FDB /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				02B386D6227C69E800E02FDB /* 9squares-AlBoardman.json */,
-				02B386D5227C69E800E02FDB /* 935-loading.json */,
+				02B386D6227C69E800E02FDB /* B.json */,
+				02B386D5227C69E800E02FDB /* A.json */,
 			);
 			name = Animations;
 			sourceTree = "<group>";
@@ -260,8 +260,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02B386D7227C69E800E02FDB /* 935-loading.json in Resources */,
-				02B386D8227C69E800E02FDB /* 9squares-AlBoardman.json in Resources */,
+				02B386D7227C69E800E02FDB /* A.json in Resources */,
+				02B386D8227C69E800E02FDB /* B.json in Resources */,
 				02B386D4227C698A00E02FDB /* LaunchScreen.storyboard in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				02B386D2227C694500E02FDB /* Images.xcassets in Resources */,

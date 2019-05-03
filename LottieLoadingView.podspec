@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LottieLoadingView'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = '使用Lottie做的加载动画'
 
 # This description is used to generate tags and improve search results.
