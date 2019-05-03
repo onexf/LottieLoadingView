@@ -1,0 +1,23 @@
+PODS:
+  - lottie-ios (3.0.4)
+  - LottieLoadingView (0.1.0):
+    - lottie-ios
+
+DEPENDENCIES:
+  - LottieLoadingView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  LottieLoadingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  lottie-ios: 55a2de40418f8de2b155efaba4d4d1a025a5c570
+  LottieLoadingView: a59596eaf3d9ee0a9f6c4a004561d4254c9ad6a6
+
+PODFILE CHECKSUM: cbd5e97db934887d3e8236c95ea250a310a00996
+
+COCOAPODS: 1.6.1

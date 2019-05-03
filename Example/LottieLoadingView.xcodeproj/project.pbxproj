@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B386D2227C694500E02FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D1227C694500E02FDB /* Images.xcassets */; };
+		02B386D4227C698A00E02FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D3227C698A00E02FDB /* LaunchScreen.storyboard */; };
+		02B386D7227C69E800E02FDB /* 935-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D5227C69E800E02FDB /* 935-loading.json */; };
+		02B386D8227C69E800E02FDB /* 9squares-AlBoardman.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B386D6227C69E800E02FDB /* 9squares-AlBoardman.json */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		95007EA1D33BAD1DA5F2221F /* Pods_LottieLoadingView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C525EB447FDCEA1B7CF087 /* Pods_LottieLoadingView_Example.framework */; };
 		F65294EEED1AFAF98DAB1DCA /* Pods_LottieLoadingView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43467A9B8B2C6DFDC58AFAD0 /* Pods_LottieLoadingView_Tests.framework */; };
@@ -28,25 +30,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B386D1227C694500E02FDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LottieLoadingView_Example/Images.xcassets; sourceTree = "<group>"; };
+		02B386D3227C698A00E02FDB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02B386D5227C69E800E02FDB /* 935-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "935-loading.json"; sourceTree = "<group>"; };
+		02B386D6227C69E800E02FDB /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
 		23C525EB447FDCEA1B7CF087 /* Pods_LottieLoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieLoadingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A9CEB292E5F5E8C5AB73485 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2A9CEB292E5F5E8C5AB73485 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2F512C815C91832E8660C541 /* Pods-LottieLoadingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieLoadingView_Tests.release.xcconfig"; path = "Target Support Files/Pods-LottieLoadingView_Tests/Pods-LottieLoadingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		37A7B02DD5B5A5720D039BBF /* LottieLoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LottieLoadingView.podspec; path = ../LottieLoadingView.podspec; sourceTree = "<group>"; };
+		37A7B02DD5B5A5720D039BBF /* LottieLoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LottieLoadingView.podspec; path = ../LottieLoadingView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		43467A9B8B2C6DFDC58AFAD0 /* Pods_LottieLoadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieLoadingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LottieLoadingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieLoadingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* LottieLoadingView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottieLoadingView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		AB464C9B70DA5228B6F29A26 /* Pods-LottieLoadingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieLoadingView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LottieLoadingView_Tests/Pods-LottieLoadingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF822FFC7FCBF0A232412A17 /* Pods-LottieLoadingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieLoadingView_Example.debug.xcconfig"; path = "Target Support Files/Pods-LottieLoadingView_Example/Pods-LottieLoadingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DCEC658CD8F13415007D5DA7 /* Pods-LottieLoadingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieLoadingView_Example.release.xcconfig"; path = "Target Support Files/Pods-LottieLoadingView_Example/Pods-LottieLoadingView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FD4DB9483D00EF453A58FC0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FD4DB9483D00EF453A58FC0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02B386D9227C6A6F00E02FDB /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				02B386D6227C69E800E02FDB /* 9squares-AlBoardman.json */,
+				02B386D5227C69E800E02FDB /* 935-loading.json */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
 		336B7CE460D5296DDFAB7747 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				02B386D1227C694500E02FDB /* Images.xcassets */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for LottieLoadingView */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -102,12 +116,12 @@
 		607FACD21AFB9204008FA782 /* Example for LottieLoadingView */ = {
 			isa = PBXGroup;
 			children = (
+				02B386D9227C6A6F00E02FDB /* Animations */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				02B386D3227C698A00E02FDB /* LaunchScreen.storyboard */,
 			);
 			name = "Example for LottieLoadingView";
 			path = LottieLoadingView;
@@ -156,7 +170,6 @@
 				AB464C9B70DA5228B6F29A26 /* Pods-LottieLoadingView_Tests.debug.xcconfig */,
 				2F512C815C91832E8660C541 /* Pods-LottieLoadingView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +240,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +260,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B386D7227C69E800E02FDB /* 935-loading.json in Resources */,
+				02B386D8227C69E800E02FDB /* 9squares-AlBoardman.json in Resources */,
+				02B386D4227C698A00E02FDB /* LaunchScreen.storyboard in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				02B386D2227C694500E02FDB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +310,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LottieLoadingView_Example/Pods-LottieLoadingView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LottieLoadingView/LottieLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LottieLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,14 +385,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -428,6 +438,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -473,6 +484,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -481,14 +493,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF822FFC7FCBF0A232412A17 /* Pods-LottieLoadingView_Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LottieLoadingView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -496,14 +508,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCEC658CD8F13415007D5DA7 /* Pods-LottieLoadingView_Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LottieLoadingView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -524,7 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieLoadingView_Example.app/LottieLoadingView_Example";
 			};
 			name = Debug;
@@ -542,7 +554,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieLoadingView_Example.app/LottieLoadingView_Example";
 			};
 			name = Release;

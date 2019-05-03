@@ -1,0 +1,6 @@
+framework module LottieLoadingView {
+  umbrella header "LottieLoadingView-umbrella.h"
+
+  export *
+  module * { export * }
+}
