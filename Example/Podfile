@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LottieLoadingView_Example' do
+  pod 'LottieLoadingView', :path => '../'
+
+  target 'LottieLoadingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
