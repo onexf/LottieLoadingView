@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LottieLoadingView'
-  s.version          = '0.3.2'
+  s.version          = '0.3.3'
   s.summary          = '使用Lottie做的加载动画'
 
 # This description is used to generate tags and improve search results.
@@ -27,8 +27,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.swift-version = '5.0'
-
+  s.swift_version = '5'
   s.source_files = 'LottieLoadingView/Classes/**/*'
   
   # s.resource_bundles = {
